@@ -5,6 +5,26 @@
     width: 100%;
     height: 100%;
 }
+h1 {
+    font-size: 64px;
+}
+h2 {
+    font-size: 48px;
+}
+h3 {
+    font-size: 40px;
+}
+h4{
+    font-size: 32px;
+}
+h5 {
+    font-size: 28px;
+
+}
+p {
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+}
 nav {
     padding: 0!important;
 }
@@ -29,10 +49,15 @@ nav {
     display: flex;
     justify-content: center;
     width: 100%;
+
+}
+#company-name:hover{
+    text-decoration: none;
+    color: #00aba9;
 }
 .nav-item {
     font-weight: bold;
-    color: black;
+    color: black!important;
 }
 #white-bar{
     background: #f0f0f0;
@@ -74,6 +99,15 @@ nav {
     font-weight: lighter;
     font-kerning: none;
     margin: 10px;
+}
+#selected-work {
+    display: flex;
+    justify-content: center;
+    font-family: 'Abel', sans-serif;
+    margin-top: 100px;
+}
+.selected-work-images {
+    width: 500px;
 }
 @media screen and (min-width: 768px) {
     nav {
