@@ -1,0 +1,82 @@
+#body {
+    background: #e6e6e6;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+nav {
+    padding: 0!important;
+}
+#navbar {
+    background-color: transparent!important;
+    margin: 0 0 3em 0;
+}
+#logo-image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#logo-image>img{
+    z-index: 3!important;
+}
+.nav-item, #company-name {
+    font-family: 'Abel', sans-serif;
+    color: black;
+}
+#company-name {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.nav-item {
+    font-weight: bold;
+    color: black;
+}
+#white-bar{
+    background: #f0f0f0;
+    width: 100%;
+    height: 3.5em;
+    margin: none;
+    position: relative;
+    top: 5em;
+    z-index: auto;
+}
+#nav-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 1em 2em;
+}
+.headings {
+    font-family: 'Anton', sans-serif;
+}
+#circle-grid {
+    margin: 3em auto;
+    display: flex;
+    justify-content: center;
+}
+#circle-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.badge-pill {
+    border: 7px solid white;
+    font-family: 'Anton', sans-serif;
+    width: 125px;
+    height: 125px;
+    font-size: 23px;
+    line-height: 120px;
+    padding: 0px 0px 15px 0px;
+    font-weight: lighter;
+    font-kerning: none;
+    margin: 10px;
+}
+@media screen and (min-width: 768px) {
+    nav {
+        background-color: #f0f0f0!important;
+    }
+}
