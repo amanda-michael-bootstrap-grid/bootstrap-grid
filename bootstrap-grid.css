@@ -107,7 +107,9 @@ nav {
     margin-top: 100px;
 }
 .selected-work-images {
-    width: 500px;
+    width: 250px;
+    border: 5px solid #4e269a;
+    border-radius: 2px;
 }
 @media screen and (min-width: 768px) {
     nav {
