@@ -101,7 +101,7 @@ nav {
     font-kerning: none;
     margin: 10px;
 }
-#selected-work {
+.lower-header {
     display: flex;
     justify-content: center;
     font-family: 'Abel', sans-serif;
@@ -120,6 +120,7 @@ nav {
     border: 5px solid #dddede;
     border-radius: 2px;
 }
+
 .under-image {
     display: flex;
     justify-content: space-between;
@@ -147,7 +148,10 @@ nav {
     font-size: 10px;
     margin-left: 5px;
 }
-
+.last-images {
+    width: 80px;
+    height: 80px;
+}
 @media screen and (min-width: 768px) {
     hr {
         height: 2px;
@@ -161,5 +165,10 @@ nav {
     }
     #company-name {
         justify-content: flex-start;
+    }
+    #selected-work-container {
+        display: flex;
+        justify-content: flex-start;
+
     }
 }
