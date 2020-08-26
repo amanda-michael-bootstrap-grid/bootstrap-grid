@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap" rel="stylesheet">
     <!-- Your custom css styles go here -->
     <link rel="stylesheet" href="bootstrap-grid.css">
+    <script src="https://kit.fontawesome.com/3795b2a3f5.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
@@ -24,7 +25,7 @@
                     <img src="img/logo.png" width="105" height="105" class="d-inline-block align-top" alt="">
                 </div>
             </a>
-            <a href="#" id="company-name">
+            <a href="#" id="company-name" class="d-sm-none d-md-block">
                 <div>codeup design</div>
             </a>
             <ul class="navbar-nav" id="nav-links">
@@ -33,6 +34,9 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">WORK</a>
+                </li>
+                <li>
+                    <div id="nav-spacer"></div>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">BLOG</a>
@@ -75,7 +79,7 @@
         <div class="row">
     <!--  selected work section  -->
         <div class="col-sm-8">
-            <p class="lower-header">SELECTED WORK</p>
+            <p class="lower-header" id="selected-work-header">SELECTED WORK</p>
     <div  id="selected-work-container" >
 
 
@@ -140,7 +144,7 @@
     <!--The Last-->
     <div class="col-sm-4 the-last d-none d-sm-block">
         <div>
-            <p class="lower-header">THE LAST</p>
+            <p class="lower-header" id="last-header">THE LAST</p>
         </div>
 
         <div class="container" id="last-articles-box">
@@ -155,6 +159,14 @@
             <div class="the-last-articles">
                 <img src="img/ipad.jpg" alt="woman's hands holding ipad with rainbow design on screen" class="last-images">
                 <p class="last-image-text">HOW TO GET GOOGLE TO LIKE YOU</p>
+            </div>
+            <div id="last-tweet">
+                <div id="tweet-header">
+                    <i class="fab fa-twitter"></i>  <span id="tweet-span">LAST TWEET</span>
+                </div>
+                <div>
+                    <p id="tweet">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi excepturi laudantium necessitatibus nostrum placeat provident similique vitae?</p>
+                </div>
             </div>
         </div>
     </div>

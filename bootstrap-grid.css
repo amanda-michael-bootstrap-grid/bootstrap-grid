@@ -120,16 +120,24 @@ nav {
     margin-top: 100px;
     font-size: 12px;
 }
+#selected-work-header {
+    padding-left: 3em;
+}
+#last-header {
+    margin-left: 1.5em;
+    margin-bottom: 5em;
+}
 .selected-works-box {
     display: flex;
     justify-content: center;
-    width: 250px;
+    width: 300px;
     flex-wrap: wrap;
     margin: 0 auto;
+    padding: 2em;
 }
 .selected-work-images {
-    width: 250px;
-    height: 175px;
+    width: 300px;
+    /*height: 175px;*/
     border: 5px solid #dddede;
     border-radius: 2px;
 }
@@ -140,7 +148,7 @@ nav {
 .under-image {
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 300px;
     margin-top: 5px;
 }
 .featured-project {
@@ -173,11 +181,26 @@ nav {
 .last-images {
     width: 80px;
     height: 80px;
+    border: 4px solid #dddede;
+    border-radius: 1px;
 }
 .last-image-text {
     font-family: 'Anton', sans-serif;
-    font-size: 20px;
+    font-size: 26px;
     margin-left: 10px;
+}
+@media screen and (min-width: 576px) {
+    #logo-image {
+        position: absolute;
+        left: 0%;
+    }
+    #nav-spacer {
+        width: 105px;
+    }
+    .navbar-nav {
+        position: absolute;
+        left: 0%;
+    }
 }
 @media screen and (min-width: 768px) {
     hr {
@@ -206,12 +229,14 @@ nav {
         display: flex;
         justify-content: flex-end;
         flex-direction: column;
+        padding: 0;
     }
     .the-last-articles {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
         width: 100%;
+        margin-bottom: 2em;
     }
     .the-last-articles:hover {
         opacity: 50%;
@@ -225,5 +250,26 @@ nav {
     .selected-works-box {
         display: flex;
         justify-content: left;
-
+    }
+    #last-tweet {
+        width: 100%;
+    }
+    .fa-twitter {
+     color: #219de9;
+        font-size: 1.25rem;
+    }
+    #tweet-header {
+        font-family: 'Abel', sans-serif;
+        font-weight: bolder;
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+    #tweet-span {
+        position: relative;
+        left: 5px;
+        vertical-align: text-bottom;
+    }
+    #tweet {
+        font-size: 16px;
+    }
 }
