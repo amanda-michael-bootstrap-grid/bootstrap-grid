@@ -37,6 +37,9 @@ nav {
     display: flex;
     justify-content: center;
 }
+#logo-image:hover{
+    opacity: 50%;
+}
 #logo-image>img{
     z-index: 3!important;
 }
@@ -59,6 +62,10 @@ nav {
 .nav-item>a {
     font-weight: bold;
     color: black!important;
+}
+.nav-link:hover {
+    color: #00aba9!important;
+
 }
 #white-bar{
     background: #f0f0f0;
@@ -101,6 +108,9 @@ nav {
     font-kerning: none;
     margin: 10px;
 }
+.badge-pill:hover {
+    opacity: 50%;
+}
 .lower-header {
     display: flex;
     justify-content: center;
@@ -117,8 +127,12 @@ nav {
 }
 .selected-work-images {
     width: 250px;
+    height: 175px;
     border: 5px solid #dddede;
     border-radius: 2px;
+}
+.selected-work-images:hover {
+    opacity: 50%;
 }
 
 .under-image {
@@ -131,6 +145,9 @@ nav {
     font-size: 12px;
     margin-right: auto;
     line-height: 18px;
+}
+.featured-project:hover{
+    color: #00aba9;
 }
 .spacer {
     flex-grow: 2;
@@ -148,9 +165,17 @@ nav {
     font-size: 10px;
     margin-left: 5px;
 }
+.icon:hover {
+    opacity: 50%;
+}
 .last-images {
     width: 80px;
     height: 80px;
+}
+.last-image-text {
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+    margin-left: 10px;
 }
 @media screen and (min-width: 768px) {
     hr {
@@ -170,5 +195,29 @@ nav {
         display: flex;
         justify-content: flex-start;
 
+    }
+    .lower-header {
+        display: flex;
+        justify-content: flex-start;
+    }
+    .the-last {
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+    }
+    .the-last-articles {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    .the-last-articles:hover {
+        opacity: 50%;
+    }
+    #last-articles-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 300px;
     }
 }
