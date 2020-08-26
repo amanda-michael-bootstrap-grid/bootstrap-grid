@@ -220,4 +220,8 @@ nav {
         justify-content: space-between;
         height: 300px;
     }
+    .selected-works-box {
+        display: flex;
+        justify-content: left;
+
 }
