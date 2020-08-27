@@ -85,6 +85,19 @@ nav {
     width: 100%;
     margin: 1em 2em;
 }
+#company-name-sm {
+    font-size: 40px;
+    display: flex !important;
+    justify-content: center;
+    width: 100%;
+    font-family: 'Abel', sans-serif;
+    color: black;
+    margin-bottom: 1.5em;
+}
+#company-name-sm:hover {
+    color: #00aba9;
+    text-decoration: none;
+}
 .headings {
     font-family: 'Anton', sans-serif;
 }
@@ -195,9 +208,16 @@ nav {
     #logo-image {
         position: absolute;
         left: 0%;
+        top: 0;
     }
     #nav-spacer {
-        width: 105px;
+        width: 130px;
+    }
+    #company-name {
+        color: transparent;
+    }
+    #company-name:hover {
+        color: transparent;
     }
     .navbar-nav {
         position: absolute;
@@ -207,6 +227,12 @@ nav {
         margin: 3em auto;
         display: flex;
         justify-content: center;
+    }
+    #nav-links {
+        margin-left: 0;
+        margin-top: 4em;
+    }
+
 }
 /*medium + screen */
 @media screen and (min-width: 768px) {
